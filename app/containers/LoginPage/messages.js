@@ -9,5 +9,5 @@ export default defineMessages({
   title: {
     id: 'freshwater.containers.LoginPage.title',
     defaultMessage: 'Login',
-  }
+  },
 });

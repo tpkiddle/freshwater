@@ -5,98 +5,31 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
-import { connect } from 'react-redux';
-import { compose } from 'redux';
-import { createStructuredSelector } from 'reselect';
 
-import injectReducer from 'utils/injectReducer';
-import injectSaga from 'utils/injectSaga';
-import { makeSelectRepos, makeSelectLoading, makeSelectError } from 'containers/App/selectors';
 import H1 from 'components/H1';
-import AtPrefix from './AtPrefix';
 import messages from './messages';
-import { loadRepos } from '../App/actions';
-import { changeUsername } from './actions';
-import { makeSelectUsername } from './selectors';
-import reducer from './reducer';
-import saga from './saga';
 
-export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
-  /**
-   * when initial state username is not null, submit the form to load repos
-   */
-  componentDidMount() {
-    if (this.props.username && this.props.username.trim().length > 0) {
-      this.props.onSubmitForm();
-    }
+export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
+
+  // Since state and props are static,
+  // there's no need to re-render this component
+  shouldComponentUpdate() {
+    return false;
   }
 
   render() {
-    const { loading, error, repos } = this.props;
-    const reposListProps = {
-      loading,
-      error,
-      repos,
-    };
-
     return (
       <div>
         <Helmet>
           <title>Home Page</title>
           <meta name="description" content="A React.js Boilerplate application homepage" />
         </Helmet>
-        <div>
-          <H1>
-            <FormattedMessage {...messages.title} />
-          </H1>
-        </div>
+        <H1>
+          <FormattedMessage {...messages.title} />
+        </H1>
       </div>
     );
   }
 }
-
-HomePage.propTypes = {
-  loading: PropTypes.bool,
-  error: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.bool,
-  ]),
-  repos: PropTypes.oneOfType([
-    PropTypes.array,
-    PropTypes.bool,
-  ]),
-  onSubmitForm: PropTypes.func,
-  username: PropTypes.string,
-  onChangeUsername: PropTypes.func,
-};
-
-export function mapDispatchToProps(dispatch) {
-  return {
-    onChangeUsername: (evt) => dispatch(changeUsername(evt.target.value)),
-    onSubmitForm: (evt) => {
-      if (evt !== undefined && evt.preventDefault) evt.preventDefault();
-      dispatch(loadRepos());
-    },
-  };
-}
-
-const mapStateToProps = createStructuredSelector({
-  repos: makeSelectRepos(),
-  username: makeSelectUsername(),
-  loading: makeSelectLoading(),
-  error: makeSelectError(),
-});
-
-const withConnect = connect(mapStateToProps, mapDispatchToProps);
-
-const withReducer = injectReducer({ key: 'home', reducer });
-const withSaga = injectSaga({ key: 'home', saga });
-
-export default compose(
-  withReducer,
-  withSaga,
-  withConnect,
-)(HomePage);

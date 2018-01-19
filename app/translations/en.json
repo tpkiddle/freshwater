@@ -1,40 +1,13 @@
 {
   "freshwater.components.Footer.author.message": "Made with love by {author}.",
   "freshwater.components.Footer.license.message": "FreshWater v0.1",
-
   "freshwater.components.Header.login": "Login",
   "freshwater.components.Header.home": "Dashboard",
   "freshwater.components.Header.solutions": "Solutions",
-
-  "freshwater.containers.FeaturePage.css.header": "Features",
-  "freshwater.containers.FeaturePage.css.message": "Next generation CSS",
-  "freshwater.containers.FeaturePage.feedback.header": "Instant feedback",
-  "freshwater.containers.FeaturePage.feedback.message": "Enjoy the best DX and code your app at the speed of thought! Your\n    saved changes to the CSS and JS are reflected instantaneously\n    without refreshing the page. Preserve application state even when\n    you update something in the underlying code!",
-  "freshwater.containers.FeaturePage.header": "Features",
-  "freshwater.containers.FeaturePage.internationalization.header": "Complete i18n Standard Internationalization & Pluralization",
-  "freshwater.containers.FeaturePage.internationalization.message": "Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.",
-  "freshwater.containers.FeaturePage.javascript.header": "Next generation JavaScript",
-  "freshwater.containers.FeaturePage.javascript.message": "Use template strings, object destructuring, arrow functions, JSX\n    syntax and more, today.",
-  "freshwater.containers.FeaturePage.network.header": "Offline-first",
-  "freshwater.containers.FeaturePage.network.message": "The next frontier in performant web apps: availability without a\n      network connection from the instant your users load the app.",
-  "freshwater.containers.FeaturePage.routing.header": "Industry-standard routing",
-  "freshwater.containers.FeaturePage.routing.message": "Write composable CSS that's co-located with your components for\n    complete modularity. Unique generated class names keep the\n    specificity low while eliminating style clashes. Ship only the\n    styles that are on the page for the best performance.",
-  "freshwater.containers.FeaturePage.scaffolding.header": "Quick scaffolding",
-  "freshwater.containers.FeaturePage.scaffolding.message": "Automate the creation of components, containers, routes, selectors\n  and sagas - and their tests - right from the CLI!",
-  "freshwater.containers.FeaturePage.state_management.header": "Predictable state management",
-  "freshwater.containers.FeaturePage.state_management.message": "Unidirectional data flow allows for change logging and time travel\n    debugging.",
-
   "freshwater.containers.HomePage.title": "Dashboard",
-  "freshwater.containers.HomePage.tryme.atPrefix": "@",
-  "freshwater.containers.HomePage.tryme.header": "Try me!",
-  "freshwater.containers.HomePage.tryme.message": "Show Github repositories by",
-
   "freshwater.containers.LoginPage.title": "Login",
-
   "freshwater.containers.SolutionsPage.title": "Solutions",
-
   "freshwater.containers.LocaleToggle.de": "de",
   "freshwater.containers.LocaleToggle.en": "en",
-
-  "freshwater.containers.NotFoundPage.header": "Page not found."
+  "freshwater.containers.NotFoundPage.title": "Page not found."
 }

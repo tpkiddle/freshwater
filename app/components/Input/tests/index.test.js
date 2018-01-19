@@ -1,7 +1,11 @@
+/**
+ * Testing our input component
+ */
+
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Input from '../Input';
+import Input from '../index';
 
 describe('<Input />', () => {
   it('should render an <input> tag', () => {

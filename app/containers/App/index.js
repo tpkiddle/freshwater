@@ -9,7 +9,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import LoginPage from 'containers/LoginPage/Loadable';
 import HomePage from 'containers/HomePage/Loadable';

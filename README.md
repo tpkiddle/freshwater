@@ -1,8 +1,13 @@
-UI/UX Boilerplate
-=================
+<div align="center">
+  <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/logo/ripple-logo-color.png" valign="bottom" />
+  <span align="center" style="font-size: 21px">FreshWater UI</span>
+</div>
+<br />
 
-(based on https://github.com/react-boilerplate/react-boilerplate)
+<div align="center"><strong>Start your next react project in seconds</strong></div>
+<div align="center">A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices</div>
 
+<br />
 
 ## Features
 
@@ -15,6 +20,9 @@ UI/UX Boilerplate
 
   <dt>Predictable state management</dt>
   <dd>Unidirectional data flow allows for change logging and time travel debugging.</dd>
+
+  <dt>Apollo for GraphQL</dt>
+  <dd>Feature currently a work in progress.</dd>
 
   <dt>Next generation JavaScript</dt>
   <dd>Use template strings, object destructuring, arrow functions, JSX syntax and more, today.</dd>
@@ -73,3 +81,12 @@ Now you're ready to rumble!
 - [Your app](docs/js): Supercharging your app with Routing, Redux, simple
   asynchronicity helpers, etc.
 - [**Troubleshooting**](docs/general/gotchas.md): Solutions to common problems faced by developers.
+
+## Note
+
+FreshWater UI is based on v3.5.0 of the [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate) by Maximilian Stoiber
+
+## License
+
+This project is licensed under the MIT license, Copyright (c) 2017 Maximilian
+Stoiber. For more information see `LICENSE.md`.

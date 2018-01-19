@@ -282,7 +282,6 @@
     "imports-loader": "0.7.1",
     "jest-cli": "20.0.4",
     "lint-staged": "3.5.1",
-    "neat-components": "^1.0.20",
     "ngrok": "2.2.9",
     "node-plop": "0.7.0",
     "node-sass": "^4.7.2",

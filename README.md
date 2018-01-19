@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/logo/ripple-logo-color.png" valign="bottom" />
-  <span align="center" style="font-size: 21px">FreshWater UI</span>
+  <span align="center" style="font-size: 21px"><strong>FreshWater UI</strong></span>
 </div>
 <br />
 

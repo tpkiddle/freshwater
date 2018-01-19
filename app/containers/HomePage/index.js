@@ -16,7 +16,6 @@ import injectReducer from 'utils/injectReducer';
 import injectSaga from 'utils/injectSaga';
 import { makeSelectRepos, makeSelectLoading, makeSelectError } from 'containers/App/selectors';
 import H1 from 'components/H1';
-import ReposList from 'components/ReposList';
 import AtPrefix from './AtPrefix';
 import messages from './messages';
 import { loadRepos } from '../App/actions';

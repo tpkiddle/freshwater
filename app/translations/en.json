@@ -1,11 +1,11 @@
 {
   "freshwater.components.Footer.author.message": "Made with love by {author}.",
   "freshwater.components.Footer.license.message": "FreshWater v0.1",
-  "freshwater.components.Header.login": "Login",
   "freshwater.components.Header.home": "Dashboard",
   "freshwater.components.Header.solutions": "Solutions",
+  "freshwater.components.Header.components": "Components",
   "freshwater.containers.HomePage.title": "Dashboard",
-  "freshwater.containers.LoginPage.title": "Login",
+  "freshwater.containers.ComponentsPage.title": "Components",
   "freshwater.containers.SolutionsPage.title": "Solutions",
   "freshwater.containers.LocaleToggle.de": "de",
   "freshwater.containers.LocaleToggle.en": "en",

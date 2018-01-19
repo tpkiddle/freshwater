@@ -22,7 +22,7 @@ export default class SolutionsPage extends React.Component { // eslint-disable-l
       <div>
         <Helmet>
           <title>Solutions Page</title>
-          <meta name="description" content="Feature page of React.js Boilerplate application" />
+          <meta name="description" content="Solutions page of FreshWater UI" />
         </Helmet>
         <div>
           <H1>

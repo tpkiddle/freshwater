@@ -17,6 +17,7 @@ export default styled(Link)`
   color: #666;
   pointer: cursor;
   vertical-align: middle;
+  line-height: 1;
 
   &:hover {
     text-decoration: none;

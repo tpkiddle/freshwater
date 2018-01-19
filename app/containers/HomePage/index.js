@@ -24,7 +24,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
       <div>
         <Helmet>
           <title>Home Page</title>
-          <meta name="description" content="A React.js Boilerplate application homepage" />
+          <meta name="description" content="Home page of FreshWater UI" />
         </Helmet>
         <H1>
           <FormattedMessage {...messages.title} />

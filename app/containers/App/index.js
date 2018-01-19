@@ -11,9 +11,9 @@ import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
-import LoginPage from 'containers/LoginPage/Loadable';
 import HomePage from 'containers/HomePage/Loadable';
 import SolutionsPage from 'containers/SolutionsPage/Loadable';
+import ComponentsPage from 'containers/ComponentsPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Main from 'components/Main';
 import Header from 'components/Header';
@@ -31,17 +31,17 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - FreshWater UI Boilerplate"
-        defaultTitle="FreshWater UI Boilerplate"
+        titleTemplate="%s - FreshWater UI"
+        defaultTitle="FreshWater UI"
       >
-        <meta name="description" content="FreshWater - A React.js Boilerplate application" />
+        <meta name="description" content="FreshWater UI - A React.js Boilerplate application" />
       </Helmet>
       <Header />
       <Main>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/solutions" component={SolutionsPage} />
-          <Route path="/login" component={LoginPage} />
+          <Route path="/components" component={ComponentsPage} />
           <Route path="" component={NotFoundPage} />
         </Switch>
       </Main>

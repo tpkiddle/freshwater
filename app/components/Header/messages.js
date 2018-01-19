@@ -6,10 +6,6 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-  login: {
-    id: 'freshwater.components.Header.login',
-    defaultMessage: 'Login',
-  },
   home: {
     id: 'freshwater.components.Header.home',
     defaultMessage: 'Dashboard',
@@ -17,5 +13,9 @@ export default defineMessages({
   solutions: {
     id: 'freshwater.components.Header.solutions',
     defaultMessage: 'Solutions',
+  },
+  components: {
+    id: 'freshwater.components.Header.components',
+    defaultMessage: 'Components',
   },
 });

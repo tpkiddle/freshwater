@@ -1,22 +1,14 @@
 /**
- * A form input with div wrapper and optional label
+ * A form textarea with div wrapper and optional label
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Label from '../Label';
 import Wrapper from './Wrapper';
 
-import {
-  INPUT_TYPES,
-} from './constants';
-
-const Input = styled.input.attrs({
-  type: (props) => {
-    return INPUT_TYPES.includes(props.type) > -1 ? props.type : 'text';
-  },
+const TextArea = styled.textarea.attrs({
   placeholder: (props) => {
     return props.placeholder || '';
   },
@@ -46,10 +38,7 @@ class WrappedElement extends React.Component {
     return (
       <Wrapper>
         {label}
-        <Input
-          type={this.props.type}
-          placeholder={this.props.placeholder}
-        />
+        <TextArea placeholder={this.props.placeholder} />
       </Wrapper>
     );
   }

@@ -8,6 +8,12 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   title: {
     id: 'freshwater.containers.ComponentsPage.title',
-    defaultMessage: 'Forms',
+    defaultMessage: 'Components',
+  },
+  forms: {
+    title: {
+      id: 'freshwater.containers.ComponentsPage.forms.title',
+      defaultMessage: 'Forms',
+    },
   },
 });

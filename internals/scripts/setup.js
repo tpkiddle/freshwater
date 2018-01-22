@@ -115,8 +115,8 @@ function installDepsCallback(error) {
 
   /**
    * Deleting the setup.js file is likely superfluous to our use case at
-   * this point. It is more appropriate to keep the file at simply re-run
-   * git init if the freshwater git repo has been removed
+   * this point. It is more appropriate to keep the file and simply re-run
+   * git init if the FreshWater git repo has been removed
    * (i.e. a new UI is being built using FreshWater)
    */
 

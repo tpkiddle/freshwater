@@ -6,6 +6,7 @@
   "freshwater.components.Header.components": "Komponenten",
   "freshwater.containers.HomePage.title": "Instrumententafel",
   "freshwater.containers.ComponentsPage.title": "Komponenten",
+  "freshwater.containers.ComponentsPage.forms.title": "Formen",
   "freshwater.containers.SolutionsPage.title": "Lösungen",
   "freshwater.containers.LocaleToggle.de": "de",
   "freshwater.containers.LocaleToggle.en": "en",

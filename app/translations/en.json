@@ -6,6 +6,7 @@
   "freshwater.components.Header.components": "Components",
   "freshwater.containers.HomePage.title": "Dashboard",
   "freshwater.containers.ComponentsPage.title": "Components",
+  "freshwater.containers.ComponentsPage.forms.title": "Forms",
   "freshwater.containers.SolutionsPage.title": "Solutions",
   "freshwater.containers.LocaleToggle.de": "de",
   "freshwater.containers.LocaleToggle.en": "en",
